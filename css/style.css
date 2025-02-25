@@ -61,8 +61,8 @@ p {
 }
 
 
-/* THIS SECTION HAS BEEN RESERVED FOR SECTION 1 */
-.sectone {
+/* THIS SECTION HAS BEEN RESERVED FOR NORMAL SECTIONS*/
+.section {
   background-color: white;
   margin: auto;
   display: flex;
@@ -72,6 +72,20 @@ p {
   width: 590px;
   height: 160px;
   padding: 20px; /* Add padding for better spacing */
+  box-shadow: rgba(0, 0, 0, 0.415) 10px 10px;
+}
+
+/* THIS SECTION HAS BEEN RESERVED FOR IMAGE SECTIONS*/
+.section_img {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_img img {
+  width: 550px; /* Adjust width */
+  height: 320px; /* Adjust height */
   box-shadow: rgba(0, 0, 0, 0.415) 10px 10px;
 }
 
@@ -112,5 +126,3 @@ p {
   font-size: 12px;
   margin-right: 20px;
 }
-
-
